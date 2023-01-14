@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
+const PRODUCTION_API_BASE_URL = 'https://places-exam-api.azurewebsites.net';
+
 
 module.exports = {
   mode: 'none',
