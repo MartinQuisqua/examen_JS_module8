@@ -4,7 +4,7 @@ import munich from '../img/munich.jpg';
 import paris from '../img/paris.jpg';
 import rome from '../img/rome.jpg';
 
-[
+const ville = [
   {
     id: 1,
     name: 'Berlin',
@@ -31,3 +31,5 @@ import rome from '../img/rome.jpg';
     image: rome,
   },
 ];
+
+export default ville;
